@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_temas"
+            android:icon="@drawable/temariofolder"
+            android:title="Temario" />
+        <item
+            android:id="@+id/nav_avance"
+            android:icon="@drawable/avances"
+            android:title="avance del curso" />
+        <item
+            android:id="@+id/nav_videos"
+            android:icon="@drawable/videos"
+            android:title="Videos Sobre SOAP" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/setings"
+            android:title="Opciones" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_games"
+                android:icon="@drawable/minigames"
+                android:title="Minigames" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/correo"
+                android:title="Enviar Correo" />
+            <item android:id="@+id/nav_ubicacion"
+                android:icon="@drawable/location"
+                android:title="Localizacion"
+                ></item>
+        </menu>
+    </item>
+
+</menu>

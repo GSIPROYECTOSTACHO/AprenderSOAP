@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="utng.edu.mx.aprendersoap.Ayuda"
+    tools:showIn="@layout/app_bar_ayuda"
+    android:background="@drawable/fondo2"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="100pt"
+        android:layout_height="100pt"
+        android:src="@drawable/ayuda"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preguntas frecuentes"
+        android:textSize="20pt"
+        android:layout_gravity="center"
+        android:layout_marginTop="4pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Porque no puedo acceder a mi cuenta?"
+        android:textSize="15pt"
+        android:textColor="@color/negro"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Procure no desinstalar la aplicacion para que no se puierdan los datos "
+        android:textSize="10pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Que hago en el menu pricipal para realizar las actividades?"
+        android:textSize="15pt"
+        android:textColor="@color/negro"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Debe dar clic en la opcion temario y mosytrara los modulos"
+        android:textSize="10pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Los videos tardan en cargar"
+        android:textSize="15pt"
+        android:textColor="@color/negro"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Los videos se reproducen a una velocidad dependiendo de su conexion de internet"
+        android:textSize="10pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Como me logueo en facebook"
+        android:textSize="15pt"
+        android:textColor="@color/negro"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La aplicacion no cuenta con esa funcion"
+        android:textSize="10pt"
+
+        />
+</LinearLayout>

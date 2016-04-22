@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="utng.edu.mx.aprendersoap.ModuloTres"
+    tools:showIn="@layout/app_bar_modulo_tres"
+    android:orientation="vertical"
+    android:background="@drawable/fondo2"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modulo Tres"
+        android:textSize="12pt"
+        android:textColor="@color/negro"
+        android:layout_marginLeft="2pt"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SOAP Handlers"
+        android:layout_marginTop="10pt"
+        android:textSize="10pt"
+        android:textColor="@color/negro"
+        android:layout_marginLeft="2pt"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WSgen"
+        android:layout_marginTop="10pt"
+        android:textSize="10pt"
+        android:textColor="@color/negro"
+        android:layout_marginLeft="2pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REST"
+        android:layout_marginTop="10pt"
+        android:textSize="10pt"
+        android:textColor="@color/negro"
+        android:layout_marginLeft="2pt"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JAX-RS"
+        android:layout_marginTop="10pt"
+        android:textSize="10pt"
+        android:textColor="@color/negro"
+        android:layout_marginLeft="2pt"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pruebas de conocimiento"
+        android:textSize="10pt"
+        android:layout_gravity="right"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Practica 3"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/btn_practica3"
+            />
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generar Grafica"
+        android:id="@+id/btn_grafica_modtres"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+
+
+</LinearLayout>

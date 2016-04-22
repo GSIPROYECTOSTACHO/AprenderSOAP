@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="utng.edu.mx.aprendersoap.ModuloUno"
+    tools:showIn="@layout/app_bar_modulo_uno"
+    android:orientation="vertical"
+    android:background="@drawable/fondo2"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modulo Uno"
+        android:textSize="12pt"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduccion"
+        android:textSize="12pt"
+        android:textStyle="bold"
+        android:layout_marginTop="10pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Que es un Web Service?"
+        android:layout_marginTop="5pt"
+        android:textSize="10pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Para que sirve"
+        android:layout_marginTop="5pt"
+        android:textSize="10pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SOAP"
+        android:layout_marginTop="10pt"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Para Que sirve"
+        android:layout_marginTop="5pt"
+        android:textSize="10pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Que es"
+        android:textSize="10pt"
+        android:layout_marginTop="10pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jax-WS"
+        android:layout_marginTop="10pt"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pruebas de conocimiento"
+        android:textSize="10pt"
+        android:layout_gravity="right"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Practica 1"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/btn_practica1"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_practicacodigo"
+            android:text="Practica de codigo"
+            style="@style/Widget.AppCompat.Button.Colored"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnGrafica"
+            android:text="Generar Grafica"
+            style="@style/Widget.AppCompat.Button.Colored"
+
+            />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generar Grafica"
+        android:id="@+id/btn_grafica_moduno"
+        style="@style/Widget.AppCompat.Button.Colored"
+        />
+
+
+
+
+
+</LinearLayout>
